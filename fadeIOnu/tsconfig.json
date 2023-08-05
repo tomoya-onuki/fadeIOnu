@@ -6,7 +6,7 @@
     "declaration": true,
     "newLine": "lf",
     "pretty": true,
-    "outDir": "fadeIOnu/dist",
+    "outDir": "dist",
     "strict": true,
     "skipLibCheck": true
   },

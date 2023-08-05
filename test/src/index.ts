@@ -6,15 +6,16 @@ window.onload = (event) => {
     const durationSliderElem: HTMLInputElement = <HTMLInputElement>document.querySelector("#duration");
     const inElem: HTMLElement = <HTMLElement>document.querySelector("#in");
     
-    inElem.addEventListener("click", () => {
-        const duration = Number(durationSliderElem.value)
-        fadeIn(elem, duration);
+    inElem.addEventListener("click", async () => {
+        const duration = Number(durationSliderElem.value);
+        await fadeIn(elem, duration);
+        console.log("fadein !!");
     });
     
     const outElem: HTMLElement = <HTMLElement>document.querySelector("#out")
-    outElem.addEventListener("click", () => {
+    outElem.addEventListener("click", async () => {
         const duration = Number(durationSliderElem.value);
-        console.log(duration);
-        fadeOut(elem, duration);
+        await fadeOut(elem, duration);
+        console.log("fadeout !!");
     });
 };

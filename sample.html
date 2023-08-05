@@ -12,15 +12,16 @@
         const elem = document.querySelector("#a0");
         const durationSliderElem = document.querySelector("#duration");
         document.querySelector("#in")
-            .addEventListener("click", () => {
+            .addEventListener("click", async () => {
                 const duration = Number(durationSliderElem.value)
-                fadeIn(elem, duration);
+                await fadeIn(elem, duration);
+                console.log("fadein!!");
             });
         document.querySelector("#out")
-            .addEventListener("click", () => {
+            .addEventListener("click", async () => {
                 const duration = Number(durationSliderElem.value);
-                console.log(duration);
-                fadeOut(elem, duration);
+                await fadeOut(elem, duration);
+                console.log("fadeout!!");
             });
     </script>
 
