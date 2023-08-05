@@ -11,29 +11,13 @@ It can be treated like jquery's fadein() and fadeout() method.
 <div style="height: 40px"></div>
 
 ## Usage
-### JavaScript
-1. Download fadeIOnu.js [[Link]](https://github.com/tomoya-onuki/fadeIOnu.js/blob/master/fadeIOnu.js).
-2. Coding
-```js
-import { fadeIn, fadeOut } from './fadeIOnu.js';
-
-const elem = document.querySelector("#elem");
-const duradion = 600;
-await fadeIn(elem, duration, 'block');
-await fadeOut(elem, duration);
-console.log("done");
-```
----
-
-### TypeScript
-1. Installation
+### Installation
 ```sh
-npm install https://github.com/tomoya-onuki/fadeIOnu.js/tree/ts
+npm install https://github.com/tomoya-onuki/fadeIOnu.js/
 ```
-
-2. Coding
+### Coeding
 ```ts
-import { fadeIn, fadeOut } from 'fadeIOnu';
+import { fadeIn, fadeOut } from 'fadeionu';
 
 const elem: HTMLElement = <HTMLElement>document.querySelector("#elem");
 const duration: number = 600;
