@@ -10,21 +10,38 @@ It can be treated like jquery's fadein() and fadeout() method.
 
 <div style="height: 40px"></div>
 
-## Usage
+## Getting Started
 ### Installation
-```sh
-npm install https://github.com/tomoya-onuki/fadeIOnu.js/
-```
-### Coeding
-```ts
-import { fadeIn, fadeOut } from 'fadeionu';
+- JavaScript  
+    DL : [fadeIOnu.js](https://github.com/tomoya-onuki/fadeIOnu.js/blob/master/fadeIOnu.js)
 
-const elem: HTMLElement = <HTMLElement>document.querySelector("#elem");
-const duration: number = 600;
-await fadeIn(elem, duration, 'block');
-await fadeOut(elem, duration);
-console.log("done");
-```
+- TypeScript
+  ```sh
+  npm install https://github.com/tomoya-onuki/fadeIOnu.js/
+  ```
+
+### Usage
+- JavaScript  
+    ```ts
+    import { fadeIn, fadeOut } from 'fadeIOnu.js';
+
+    const elem = document.querySelector("#elem");
+    const duration = 600;
+    await fadeIn(elem, duration, 'block');
+    await fadeOut(elem, duration);
+    console.log("done");
+    ```
+
+- TypeScript
+    ```ts
+    import { fadeIn, fadeOut } from 'fadeionu';
+
+    const elem: HTMLElement = <HTMLElement>document.querySelector("#elem");
+    const duration: number = 600;
+    await fadeIn(elem, duration, 'block');
+    await fadeOut(elem, duration);
+    console.log("done");
+    ```
 
 <div style="height: 40px"></div>
 
