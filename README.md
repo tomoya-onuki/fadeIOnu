@@ -12,7 +12,7 @@ It can be treated like jquery's fadein() and fadeout() method.
 
 ## Usage
 ### JavaScript
-1. Download fadeIOnu.js [[Link]](https://github.com/tomoya-onuki/fadeIOnu/blob/master/fadeIOnu.js).
+1. Download fadeIOnu.js [[Link]](https://github.com/tomoya-onuki/fadeIOnu.js/blob/master/fadeIOnu.js).
 2. Coding
 ```js
 import { fadeIn, fadeOut } from './fadeIOnu.js';
@@ -28,7 +28,7 @@ console.log("done");
 ### TypeScript
 1. Installation
 ```sh
-npm install https://github.com/tomoya-onuki/fadeIOnu/tree/ts
+npm install https://github.com/tomoya-onuki/fadeIOnu.js/tree/ts
 ```
 
 2. Coding
